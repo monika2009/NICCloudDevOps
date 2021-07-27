@@ -1,6 +1,6 @@
 <style type="text/css">
   body{
-  font-size: 10pt;
+  font-size: 12pt;
   font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
   text-justify: inter-word;
@@ -11,7 +11,10 @@ table, th, td {
 }
 </style> 
 
-![Screenshot from 2021-06-21 21-08-13](https://user-images.githubusercontent.com/67622286/120605829-261ed900-c46c-11eb-8e9c-899a4fb6351c.png)
+<!--
+![Screenshot from 2021-06-21 21-08-13](https://user-images.githubusercontent.com/67622286/120605829-261ed900-c46c-11eb-8e9c-899a4fb6351c.png)-->
+<img src = "https://user-images.githubusercontent.com/67622286/120605829-261ed900-c46c-11eb-8e9c-899a4fb6351c.png" width=1200 height=300>
+
 
 
 # 𝗡𝗜𝗖 𝗖𝗹𝗼𝘂𝗱 𝗗𝗲𝘃𝗢𝗽𝘀 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺
@@ -40,7 +43,9 @@ NIC DevOps Platform is a container management platform built for various Indian 
 
 DevOps is like a culture when adopted has proven to increase the speed and quality of software delivery as well as better teamwork and efficiency across multiple teams. DevOps removes silos of communication and improves collaboration. Adoption of DevOps has improved the progress of software delivery through **CI/CD**, reliability and removes gaps and mistakes that can considerably delay the software release.
 
-<img src="https://user-images.githubusercontent.com/67622286/126584545-23458724-f99a-44ee-aeb2-bce18112ac31.png" width=650 height=350>
+
+<img src="https://user-images.githubusercontent.com/67622286/126584545-23458724-f99a-44ee-aeb2-bce18112ac31.png" width=850 height=500>
+
 
 > CaaS is a requirement for the successful adoption of DevOps
 
@@ -50,7 +55,9 @@ DevOps is like a culture when adopted has proven to increase the speed and quali
 
 Container as a Service (CaaS) is a cloud based service model that allows users to provision and manage containers. CaaS provides the necessary framework and orchestration that facilitates the containerised application development, security and scalability for cloud native applications.
 
-<img src="https://user-images.githubusercontent.com/67622286/126586126-31f194f4-daf9-47b7-aef4-175d29cb5579.png" width=650 height=400>
+
+<img src="https://user-images.githubusercontent.com/67622286/126586126-31f194f4-daf9-47b7-aef4-175d29cb5579.png" width=850 height=500>
+
 
 **Benefits of CaaS**
 
@@ -178,7 +185,7 @@ Kubernetes when deployed, it's basically a **cluster**. A Kubernetes cluster con
      
 *Please refer to the below diagram which is a high level representation of a Kubernetes cluster*.
      
-<img src="https://user-images.githubusercontent.com/67622286/125412850-eb9a4b80-e3dc-11eb-89eb-108d85a26077.png" width=600 height=350>
+<img src="https://user-images.githubusercontent.com/67622286/125412850-eb9a4b80-e3dc-11eb-89eb-108d85a26077.png" width=850 height=450>
 
 A **pod** represents a set of running containers in the kubernetes cluster. A Pod is a group of one or more containers, with shared storage and network resources, and a specification for how to run the containers
 
@@ -277,7 +284,8 @@ Below are the various stages through which users can get the access to the desir
    
 A user gets a dashboard for the applied service- 
      
-<img src = "https://user-images.githubusercontent.com/67622286/122192835-a18f7a00-ceb1-11eb-8618-b9aa419fb594.png" width:05px height=150>
+<img src = "https://user-images.githubusercontent.com/67622286/122192835-a18f7a00-ceb1-11eb-8618-b9aa419fb594.png" width=800 height=200>
+
 
 This url [https://cloud.gov.in/onboarding_procedure.php](https://cloud.gov.in/onboarding_procedure.php) provides the details on the onboarding process via stages. 
 
@@ -289,10 +297,11 @@ User would be required to provide basic details in 'Get NIC Cloud Services' wind
 - Department Name
 - Contact Person's Name
 - Designation
-- Email and Mobile Number  
+- Email and Mobile Number
 
-<img src="https://user-images.githubusercontent.com/67622286/125433544-ec125991-379e-4093-95c8-5c1de50c7ef6.png" width=600 height=350>
+<img src="https://user-images.githubusercontent.com/67622286/125433544-ec125991-379e-4093-95c8-5c1de50c7ef6.png" width=800 height=450>
      
+
 #### 2.Sign-Up
      
 On receipt of mail for Sign Up Applicant is required to perform following steps:
@@ -309,16 +318,19 @@ On successful Sign Up, Applicant will be presented with Sign Up screen for keyin
 - NIC Cloud Coordinator (SIO/HOG/HOD) will then sign & upload the form on to the Cloud Portal through the upload link. (Kindly note, SIO in case of States/UTs or HOG/HOD Coordinator in case of Ministry/Department - 
 please refer https://cloud.gov.in/contact.php for NIC Cloud Coordinators details).
 
-<div style="page-break-after: always"></div>
+
 
 #### 3.Service Request 
+
 Once the Applicant's signup form is received, a service request ID is created for the user and is mailed to Cloud Account owner along with the [Url link]. (https://cloud.gov.in/service_request/) for the same. **(Kindly note, Here onwards term 'user' would apply for the officer who is the Owner of Cloud Account.)**
 
 After the sign in, the user will be presented with the Cloud Service Catalogue of the following Cloud Offerings:
 
 **3.1. Service Cloud Catalogue**
      
-<img src="https://user-images.githubusercontent.com/67622286/122382704-cce49880-cf87-11eb-9126-9e73ddee4d0e.png" height=500>
+
+<img src="https://user-images.githubusercontent.com/67622286/122382704-cce49880-cf87-11eb-9126-9e73ddee4d0e.png" width=850 height=500>
+
 
 From this catalogue, click to choose Container from the Container Services offerings You will be directed to following url [https://cloud.gov.in/procedure_container.php](https://cloud.gov.in/procedure_container.php)
 
@@ -327,41 +339,54 @@ Then follow the below steps to finally get access to your container dashboard
      
 **3.2. Container Dashboard**
 
-<img src="https://user-images.githubusercontent.com/67622286/122386237-4e89f580-cf8b-11eb-834a-0171600a4a5b.png" width=650 height=300>   
+
+<img src="https://user-images.githubusercontent.com/67622286/122386237-4e89f580-cf8b-11eb-834a-0171600a4a5b.png" width=850 height=450> 
      
+
 **3.3. Choose container as a service**
 
-<img src="https://user-images.githubusercontent.com/67622286/122386941-fe5f6300-cf8b-11eb-97e4-51efba2dd2e5.png" width=650 height=300>  
+
+<img src="https://user-images.githubusercontent.com/67622286/122386941-fe5f6300-cf8b-11eb-97e4-51efba2dd2e5.png" width=850 height=450>  
 
 <div style="page-break-after: always"></div>
     
+
 **3.4. Order View for Container Service(s)**
      
-<img src="https://user-images.githubusercontent.com/67622286/122709250-850d8c00-d27b-11eb-9250-5be81ceea47c.png" width=650 height=300> 
+
+<img src="https://user-images.githubusercontent.com/67622286/122709250-850d8c00-d27b-11eb-9250-5be81ceea47c.png" width=850 height=450> 
 
      
 **3.5. Order Confirmation**
      
-<img src = "https://user-images.githubusercontent.com/67622286/122795857-5fb06a80-d2db-11eb-95c3-21faf1735f24.png" width=650 height=300>
+
+<img src = "https://user-images.githubusercontent.com/67622286/122795857-5fb06a80-d2db-11eb-95c3-21faf1735f24.png" width=850 height=450>
+
 
 **3.6. Order Submittted**
 
-<img src = "https://user-images.githubusercontent.com/67622286/122795868-6212c480-d2db-11eb-9ee9-bad54d2176b4.png" width=900 height=200>
+
+<img src = "https://user-images.githubusercontent.com/67622286/122795868-6212c480-d2db-11eb-9ee9-bad54d2176b4.png" width=700 height=200>
 
 <div style="page-break-after: always"></div>
 
+
 **3.7. My Orders**
      
-<img src = "https://user-images.githubusercontent.com/67622286/122795875-650db500-d2db-11eb-98f7-dcb85af1c482.png" width=900 height=200>
+
+<img src = "https://user-images.githubusercontent.com/67622286/122795875-650db500-d2db-11eb-98f7-dcb85af1c482.png" width=700 height=200>
  
 
 **3.8. Order List**
 
-<img src = "https://user-images.githubusercontent.com/67622286/122795884-67700f00-d2db-11eb-98a7-3d2e28d3a532.png" width=650 height=300>
+
+<img src = "https://user-images.githubusercontent.com/67622286/122795884-67700f00-d2db-11eb-98a7-3d2e28d3a532.png" width=850 height=450>
      
+
 **3.9. Order Details**
      
-<img src = "https://user-images.githubusercontent.com/67622286/122795900-69d26900-d2db-11eb-88ef-4ce2aa254011.png" width=650 height=300>
+
+<img src = "https://user-images.githubusercontent.com/67622286/122795900-69d26900-d2db-11eb-88ef-4ce2aa254011.png" width=850 height=450>
 
 <div style="page-break-after: always"></div>
 
@@ -378,15 +403,21 @@ Under the Platform of NIC DevOps it provides 3 Dashboards  which can be accessed
 
 **https://git.cloud.gov.in** - It is a dedicated hub for source code management where developers keep personal repositories.The Dashboard of git.cloud.gov.in seems like-
 
- <img src ="https://user-images.githubusercontent.com/67622286/125444188-502ccfec-1da6-46ec-9f35-9f87c34e422a.png" width=600 height=350>
+
+<img src ="https://user-images.githubusercontent.com/67622286/125444188-502ccfec-1da6-46ec-9f35-9f87c34e422a.png" width=850 height=450>
      
+
 **https://Chub.cloud.gov.in** - It is a Cloud native repository that stores & secure images with policy and role based access control.The Dashboard of chub.cloud.gov.in seems like-
 
-<img src ="https://user-images.githubusercontent.com/67622286/125445852-b73170b7-be05-4456-b9dc-5249c246f526.png" width=600 height=350> 
+
+<img src ="https://user-images.githubusercontent.com/67622286/125445852-b73170b7-be05-4456-b9dc-5249c246f526.png" width=850 height=450> 
      
+
 **https://devops.cloud.gov.in** - It is a container management platform which provides tools to successfully deploy the application in a production environment.The Dashboard of https://devops.cloud.gov.in seems like-
 
-<img src ="https://user-images.githubusercontent.com/67622286/125446986-3a189da9-6eed-4040-acc3-24be6f5e874d.png" width=600 height=350>
+
+<img src ="https://user-images.githubusercontent.com/67622286/125446986-3a189da9-6eed-4040-acc3-24be6f5e874d.png" width=850 height=450>
+
      
 Steps to work on the requested services which convert it into a dedicated Assigned projects to user in CaaS DevOps cloud platform-
 
@@ -412,8 +443,10 @@ When we login into the chub portal by giving credentials we will explore further
      
 Here login into the chub portal user can see the dashboard of projects where multiple projects are created of an application.
 
-<img src ="https://user-images.githubusercontent.com/67622286/125584697-028e8a93-24e7-4a56-9dd0-ab2685feef2c.png" width=600 height=350>
+
+<img src ="https://user-images.githubusercontent.com/67622286/125584697-028e8a93-24e7-4a56-9dd0-ab2685feef2c.png" width=850 height=450>
      
+
 There are two types of projects in NIC DevOps Container Registry:
 - **Public**: All users have the read privilege to a public project, it's convenient for you to share some repositories with others in this way.
 - **Private**: A private project can only be accessed by users with proper privileges.
@@ -461,7 +494,7 @@ When images are pushed on the project repository we have to assign labels accord
 
 Refer screenshot below -
 
-<img src ="https://user-images.githubusercontent.com/67622286/125591554-c7a66d8e-e93f-47cf-a07d-a5e5833028bb.png" width=700 height=350>   
+<img src ="https://user-images.githubusercontent.com/67622286/125591554-c7a66d8e-e93f-47cf-a07d-a5e5833028bb.png" width=850 height=450>   
      
 **Result** - We  have successfully added the labels into the project repository.
 
@@ -471,7 +504,7 @@ Refer screenshot below -
 In the log section we can find the activities like how many images have been pulled,how much time it's pushed,how many images are deleted etc.
 Refer screenshot
 
-<img src ="https://user-images.githubusercontent.com/67622286/125608050-8a07f89f-c187-489e-aa7d-e5cf0ad36e91.png" width=700 height=350>
+<img src ="https://user-images.githubusercontent.com/67622286/125608050-8a07f89f-c187-489e-aa7d-e5cf0ad36e91.png" width=850 height=450>
 
 <div style="page-break-after: always"></div>
 
@@ -484,9 +517,11 @@ Steps to configure webhooks-
 1) Select a project and go to the Webhooks tab.
 2) Enter the URL for your webhook endpoint listener.
 
-<img src ="https://user-images.githubusercontent.com/67622286/125612284-db09387c-c5ad-439a-bc60-af6271885408.png" width=700 height=350>
+
+<img src ="https://user-images.githubusercontent.com/67622286/125612284-db09387c-c5ad-439a-bc60-af6271885408.png" width=850 height=450>
  
     
+
 3) If your webhook listener implements authentication, enter the authentication header.
 4) To implement HTTPS POST instead of HTTP POST, select the Verify Remote Certificate check box.
 5) Click Test Endpoint to make sure that NIC DevOps Container Registry can connect to the listener.
@@ -494,8 +529,10 @@ Steps to configure webhooks-
 
 **Result** - When you have created the webhook, you see the status of the different notifications and the timestamp of the last time each notification was triggered.
      
-<img src ="https://user-images.githubusercontent.com/67622286/125613276-85cb5c44-dbfa-4a9e-9828-9c23d5179e04.png" width=700 height=350>
+
+<img src ="https://user-images.githubusercontent.com/67622286/125613276-85cb5c44-dbfa-4a9e-9828-9c23d5179e04.png" width=850 height=450>
     
+
 **Vulnerability scanning**
 
 This section provides the scanning of the particular image or all images in NIC DevOps Container Registry having into the projects for deployed the images successfully into the environment. 
@@ -506,13 +543,15 @@ We have a dedicated scanner called *Clair* to check the vulnerabilities in the p
 2) To trigger the vulnerability into the image we just select the image and click the **SCAN** button for the scan process.
 
     
-<img src ="https://user-images.githubusercontent.com/67622286/125736137-2bae2e74-9f9c-4029-954f-0ed8dc8f5185.png" width=700 height=350> 
+<img src ="https://user-images.githubusercontent.com/67622286/125736137-2bae2e74-9f9c-4029-954f-0ed8dc8f5185.png" width=850 height=450> 
      
+
 Click on the tag name link, the detail page will be opened. Besides the information about the tag, all the vulnerabilities found in the last analysis process will be listed with the related information.  
      
-<img src ="https://user-images.githubusercontent.com/67622286/125736580-c1d2288a-b1a1-4b33-8b92-935d3a994ab4.png" width=700 height=350>      
+<img src ="https://user-images.githubusercontent.com/67622286/125736580-c1d2288a-b1a1-4b33-8b92-935d3a994ab4.png" width=850 height=450>      
      
      
+
 **Note**- When you run vulnerability scans, images that are subject to Common Vulnerabilities and Exposures (CVE) are identified. According to the severity of the CVE and your security settings, the images might not be permitted to run so system administrators can create whitelists of CVEs to ignore during vulnerability scanning.
      
 **Configuration** 
@@ -520,7 +559,7 @@ Click on the tag name link, the detail page will be opened. Besides the informat
 It is the one of the important sections in which we can set the Deployment Security where we can set the vulnerability severity of the image to be **below low** & **below high**  then only after that we can deploy the images successfully into the environment.
 After that all the dependencies are fulfilled to run the image in the environment then we should move into the DevOps cloud portal to deploy the application.
     
-<img src ="https://user-images.githubusercontent.com/67622286/125739996-f3f80ae2-7a64-4b8c-bd8a-fc3ea74f4781.png" width=700 height=350> 
+<img src ="https://user-images.githubusercontent.com/67622286/125739996-f3f80ae2-7a64-4b8c-bd8a-fc3ea74f4781.png" width=850 height=450> 
 
 <div style="page-break-after: always"></div>
 
@@ -528,11 +567,11 @@ After that all the dependencies are fulfilled to run the image in the environmen
 
 Login to NIC devops cloud through https://devops.cloud.gov.in and after successful login, the user will see the below dashboard providing information on the cluster.
 
-<img src ="https://user-images.githubusercontent.com/67622286/125744310-e4a0047d-7978-4418-82fc-f69918e71b45.png" width=700 height=350>     
+<img src ="https://user-images.githubusercontent.com/67622286/125744310-e4a0047d-7978-4418-82fc-f69918e71b45.png" width=850 height=450>     
 
 In the Cluster we can go further into the assigned project for Add Registry in order to deploy the application.
 
-<img src ="https://user-images.githubusercontent.com/67622286/125743049-b1603470-f7b3-441f-9e5b-723cf469bcd3.png" width=700 height=350> 
+<img src ="https://user-images.githubusercontent.com/67622286/125743049-b1603470-f7b3-441f-9e5b-723cf469bcd3.png" width=850 height=450> 
 
 Under the assigned project we just need to Add the Registry in order to deploy the application. So, Here are a few steps to deploy the application successfully into the environment.
 
@@ -540,8 +579,9 @@ Under the assigned project we just need to Add the Registry in order to deploy t
 
 2) Next we need to **Add** the Registry.
      
-<img src ="https://user-images.githubusercontent.com/67622286/125746471-d27f2995-0412-4254-a070-f175a091c18c.png"  width=700 height=350> 
+<img src ="https://user-images.githubusercontent.com/67622286/125746471-d27f2995-0412-4254-a070-f175a091c18c.png"  width=850 height=450> 
      
+
 Into the Add Registry tab below are the field we just need to fill- 
      
 **Add Registry name** - Here we define the name of the Registry.
@@ -562,12 +602,13 @@ Into the Add Registry tab below are the field we just need to fill-
 - You can view the secret in the NIC DevOps Platform UI from the Resources > Registries view.
 - Any workload that you create in the NIC DevOps Platform UI will have the credentials to access the registry if the workload is within the registry's scope.
 
-<img src ="https://user-images.githubusercontent.com/67622286/125748805-de41af1d-a47b-4e02-a9fb-d31d2298f500.png" width=700 height=350>  
+<img src ="https://user-images.githubusercontent.com/67622286/125748805-de41af1d-a47b-4e02-a9fb-d31d2298f500.png" width=850 height=450>  
 
  After the above procedure the Registry save & below dashboard shows-
    
- <img src ="https://user-images.githubusercontent.com/67622286/125745992-0bb48de5-f183-4fa6-b13b-0b0552dbc09e.png" width=700 height=350>
+ <img src ="https://user-images.githubusercontent.com/67622286/125745992-0bb48de5-f183-4fa6-b13b-0b0552dbc09e.png" width=850 height=450>
      
+
 Now this is the time to deploy the **Workload** `Workloads let you define the rules for application scheduling, scaling, and upgrade`
 
 1) Click Resources > **Workloads**.
@@ -578,19 +619,21 @@ Now this is the time to deploy the **Workload** `Workloads let you define the ru
 6) Click **Add Port** to enter a port mapping (which is declared in the docker file), which enables access to the application inside and outside of the cluster .
 7) Click **Launch**.
       
-<img src ="https://user-images.githubusercontent.com/67622286/125751430-23e1f560-4abd-4b13-90e0-5bfe2b660550.png" width=700 height=350>   
+
+<img src ="https://user-images.githubusercontent.com/67622286/125751430-23e1f560-4abd-4b13-90e0-5bfe2b660550.png" width=850 height=450>   
      
+
 **Result**: The workload is deployed to the chosen namespace. You can view the workload's status from the project's Workloads view.     
      
 After Deployed the workloads we can see below -
    
-<img src ="https://user-images.githubusercontent.com/67622286/125752426-d334135b-c197-468f-a35d-27b727580a5c.png" width=700 height=350>     
+<img src ="https://user-images.githubusercontent.com/67622286/125752426-d334135b-c197-468f-a35d-27b727580a5c.png" width=850 height=450>     
 
 **Result** - Now the Workload is succesfully running.
      
-<img src ="https://user-images.githubusercontent.com/67622286/125753091-bb909964-0639-426c-89f8-db7b3dfd6df4.png" width=700 height=350>
+<img src ="https://user-images.githubusercontent.com/67622286/125753091-bb909964-0639-426c-89f8-db7b3dfd6df4.png" width=850 height=450>
 
-### **Load balancers** 
+**Load balancers** 
 
 If you want your applications to be externally accessible, you must add a load balancer to your cluster. Here we create an L7 load balancer through which we will be able to access the application.In order to create a Load Balancer we will be perform following steps -
      
@@ -611,7 +654,7 @@ Here, we specify a hostname to use , in which ingress routes requests for a host
 9) As we have deployed the Cluster IP therefore In order to access the Workload we should access it by Service backend because we have dedicated service running for this workload.
 10) Then we Select the **Service Target**-->>Add **Service Name** then it automatically fetches the port. 
      
-<img src ="https://user-images.githubusercontent.com/67622286/125762212-40651f6c-8d16-49b3-9697-9525a3a25712.png" width=700 height=350>
+<img src ="https://user-images.githubusercontent.com/67622286/125762212-40651f6c-8d16-49b3-9697-9525a3a25712.png" width=850 height=450>
    
 **Result**: Your ingress has successfully added into the project. 
      
@@ -650,24 +693,26 @@ After configuring NIC DevOps Platform and GitHub, you can deploy containers runn
 - Run unit tests.
 - Run regression tests.
      
-### Here is the below workflow of CI/CD pipeline with Kubernetes-
+
+Here is the below workflow of CI/CD pipeline with Kubernetes-
+
      
-<img src ="https://user-images.githubusercontent.com/67622286/125779875-26924826-8ee7-4fcc-8e2f-a3533f5e2f18.png" width=700 height=350> 
+<img src ="https://user-images.githubusercontent.com/67622286/125779875-26924826-8ee7-4fcc-8e2f-a3533f5e2f18.png" width=850 height=450> 
 
 Now, we will discuss how to deploy a simple application file via CI/CD into DevOps platform.
      
 - First login into the Git cloud Portal -
     
-<img src ="https://user-images.githubusercontent.com/67622286/125780466-681002cb-1289-4e5f-9708-aaab744d4894.png" width=700 height=350> 
+<img src ="https://user-images.githubusercontent.com/67622286/125780466-681002cb-1289-4e5f-9708-aaab744d4894.png" width=850 height=450> 
 
 - After login into it we can see the assigned Projects dashboard.Into the project dashboard an assigned project consists of a group,subgroup and project name so here we can mention the same accordingly.
 - Next we will push the local created folder onto the git repository master branch.
     
-<img src ="https://user-images.githubusercontent.com/67622286/125781535-7290b61f-fc1f-426c-8793-dc46855de657.png" width=700 height=350>  
+<img src ="https://user-images.githubusercontent.com/67622286/125781535-7290b61f-fc1f-426c-8793-dc46855de657.png" width=850 height=450>  
     
 - After successfully pushed into the Git lab we need to add this Git repository into the devops cloud platform in order to interact with it. First we need to add the Kubernetes cluster into the Git repository.Click to the **Operation** Tab & choose **Kubernetes** and then click on **Add Kubernetes cluster**.   
      
-<img src ="https://user-images.githubusercontent.com/67622286/125782087-63aed479-ac55-4f9e-a3b6-4c64e1063b5e.png" width=700 height=350> 
+<img src ="https://user-images.githubusercontent.com/67622286/125782087-63aed479-ac55-4f9e-a3b6-4c64e1063b5e.png" width=850 height=450> 
 
 - Add the required details in order to add the cluster-
     - **Kubernetes Cluster Name** - Mention K8s cluster name
@@ -675,23 +720,25 @@ Now, we will discuss how to deploy a simple application file via CI/CD into DevO
     - **CA Certificate** - Add Certificate
     - **Service Token Name** - By this option we can access the cluster
 
-<img src ="https://user-images.githubusercontent.com/67622286/125782857-ba38d882-59d6-4c8c-b5a1-cf48cdab29f9.png" width=700 height=350>
+<img src ="https://user-images.githubusercontent.com/67622286/125782857-ba38d882-59d6-4c8c-b5a1-cf48cdab29f9.png" width=850 height=450>
 
 >Note - The above details like URL & service token we fetch through the kubeconfig file (It is a file that is used to configured access to clusters) which is under the devops assigned cluster project.
      
-<img src ="https://user-images.githubusercontent.com/67622286/125783293-d33ad879-c459-4ff1-8efb-1641b97253d0.png" width=700 height=350>
+<img src ="https://user-images.githubusercontent.com/67622286/125783293-d33ad879-c459-4ff1-8efb-1641b97253d0.png" width=850 height=450>
 
 - After adding the required details (URL & Service token) by kubeconfig file click tab -->> Add kubernetes cluster.
 - Click **Save Changes**.
      
-<img src ="https://user-images.githubusercontent.com/67622286/125783852-4ff5c3c5-99fd-416c-b300-b8ee59660e4f.png" width=700 height=350>
+
+<img src ="https://user-images.githubusercontent.com/67622286/125783852-4ff5c3c5-99fd-416c-b300-b8ee59660e4f.png" width=850 height=450>
 
 **Result** - You have to add the Kubernetes cluster successfully.
      
 Now we can see the Kubernetes cluster is on active state-
     
-<img src="https://user-images.githubusercontent.com/67622286/125784164-3c743aee-8089-4b1a-b21f-e4e9f4d6c661.png" width=700 height=350>
+<img src="https://user-images.githubusercontent.com/67622286/125784164-3c743aee-8089-4b1a-b21f-e4e9f4d6c661.png" width=850 height=450>
      
+
 - When configuring a pipeline, certain steps allow you to use environment variables to configure the step's script. In order to do that -
      
      - Go into the git lab setting click **CI/CD** option.
@@ -705,12 +752,14 @@ Now we can see the Kubernetes cluster is on active state-
      - Click **Save**.     
      
      
-<img src="https://user-images.githubusercontent.com/67622286/125784555-f6465d11-6db2-486f-a014-cf27f908447b.png" width=700 height=350>
+<img src="https://user-images.githubusercontent.com/67622286/125784555-f6465d11-6db2-486f-a014-cf27f908447b.png" width=850 height=450>
      
+
 **Result** - Now Variable have successfully added.
 
-<img src="https://user-images.githubusercontent.com/67622286/125788787-5c819e12-2b74-46c8-b676-b7bebee79dcb.png" width=700 height=350>
+<img src="https://user-images.githubusercontent.com/67622286/125788787-5c819e12-2b74-46c8-b676-b7bebee79dcb.png" width=850 height=450>
      
+
 After this we need to trigger the pipeline-
 
 Runners execute the jobs for build and deploy stages.
@@ -724,8 +773,9 @@ The Build and Deploy Image step builds and publishes a Docker image. This proces
 
 **Result**- So the job succeeded in building the image.
      
-<img src="https://user-images.githubusercontent.com/67622286/125789913-1e1ac537-cd63-445f-bbb1-773b2917884b.png" width=700 height=350>
+<img src="https://user-images.githubusercontent.com/67622286/125789913-1e1ac537-cd63-445f-bbb1-773b2917884b.png" width=850 height=450>
    
+
 Then going into the **deploying stage** -After executing the whole end stage it's deployed now and seen the build job on to the passed stages.
 
 At the stage of the completed the deployment we have to see the following into the scripts - 
@@ -734,31 +784,32 @@ At the stage of the completed the deployment we have to see the following into t
 - Configured Service
 - Configured Ingress  LB
      
-<img src="https://user-images.githubusercontent.com/67622286/125790688-999129c0-efe5-44d5-addc-6819fbf0e8a2.png" width=700 height=350>
+<img src="https://user-images.githubusercontent.com/67622286/125790688-999129c0-efe5-44d5-addc-6819fbf0e8a2.png" width=850 height=450>
   
      
 Now if we login into the devops cloud portal and then hit the assigned projects we are able to see the deployed one workload, Load Balancing & Services into it.
 
 If we login into the devops cloud portal we have to be able to see the deployed workloads under the assigned project.
      
-<img src="https://user-images.githubusercontent.com/67622286/125791025-fee35ab8-6aa0-48ea-8019-7d0a778e9cc5.png" width=700 height=350>
+<img src="https://user-images.githubusercontent.com/67622286/125791025-fee35ab8-6aa0-48ea-8019-7d0a778e9cc5.png" width=850 height=450>
 
 
 To ensure that we can check the log to see that the configuration has been completed or not and  workload ready for start up.
 
-<img src="https://user-images.githubusercontent.com/67622286/125791355-b259e792-34cb-4086-9619-99143403992a.png" width=700 height=350>
+<img src="https://user-images.githubusercontent.com/67622286/125791355-b259e792-34cb-4086-9619-99143403992a.png" width=850 height=450>
 
 Then we go into the git cloud CI/CD section and we are able to see the Pipeline has been passed successfully with the two stages  - Build & Deploy.
 
-<img src ="https://user-images.githubusercontent.com/67622286/125791803-02df119e-57ef-4f99-b5fe-2976f5d129e8.png" width=700 height=350>
+<img src ="https://user-images.githubusercontent.com/67622286/125791803-02df119e-57ef-4f99-b5fe-2976f5d129e8.png" width=850 height=450>
      
     
+
 In order to check the running application we need to click on the endpoint into the workloads and then see the below result-
      
-<img src="https://user-images.githubusercontent.com/67622286/125792092-f6754754-bce4-47ea-ae5b-fe08d3d830ee.png" width=700 height=350>
+<img src="https://user-images.githubusercontent.com/67622286/125792092-f6754754-bce4-47ea-ae5b-fe08d3d830ee.png" width=850 height=450>
 
      
-## Now we are able to deploy the application and follow the CI/CD pipeline in order to deploy.
+Now we are able to deploy the application and follow the CI/CD pipeline in order to deploy.
     
      
      
