@@ -439,7 +439,7 @@ Here we are discussing how to deploy applications into the production environmen
 
 When we login into the chub portal by giving credentials we will explore further container hub platforms and see various features in chub suits.
      
-### **chub Cloud Platform**
+### chub Cloud Platform
      
 Here login into the chub portal user can see the dashboard of projects where multiple projects are created of an application.
 
@@ -490,18 +490,24 @@ When images are pushed on the project repository we have to assign labels accord
 
 - click the ADD LABELS button & add labels
 
-<div style="page-break-after: always"></div>
+
+
 
 Refer screenshot below -
 
+
 <img src ="https://user-images.githubusercontent.com/67622286/125591554-c7a66d8e-e93f-47cf-a07d-a5e5833028bb.png" width=850 height=450>   
      
-**Result** - We  have successfully added the labels into the project repository.
 
+
+**Result** - We have successfully added the labels into the project repository.
+
+  
      
 **Logs**
 
 In the log section we can find the activities like how many images have been pulled,how much time it's pushed,how many images are deleted etc.
+
 Refer screenshot
 
 <img src ="https://user-images.githubusercontent.com/67622286/125608050-8a07f89f-c187-489e-aa7d-e5cf0ad36e91.png" width=850 height=450>
@@ -547,12 +553,14 @@ We have a dedicated scanner called *Clair* to check the vulnerabilities in the p
      
 
 Click on the tag name link, the detail page will be opened. Besides the information about the tag, all the vulnerabilities found in the last analysis process will be listed with the related information.  
+ 
      
-<img src ="https://user-images.githubusercontent.com/67622286/125736580-c1d2288a-b1a1-4b33-8b92-935d3a994ab4.png" width=850 height=450>      
+<img src ="https://user-images.githubusercontent.com/67622286/125736580-c1d2288a-b1a1-4b33-8b92-935d3a994ab4.png" width=850 height=450> 
      
      
 
 **Note**- When you run vulnerability scans, images that are subject to Common Vulnerabilities and Exposures (CVE) are identified. According to the severity of the CVE and your security settings, the images might not be permitted to run so system administrators can create whitelists of CVEs to ignore during vulnerability scanning.
+   
      
 **Configuration** 
 
@@ -561,13 +569,21 @@ After that all the dependencies are fulfilled to run the image in the environmen
     
 <img src ="https://user-images.githubusercontent.com/67622286/125739996-f3f80ae2-7a64-4b8c-bd8a-fc3ea74f4781.png" width=850 height=450> 
 
-<div style="page-break-after: always"></div>
+
+
+
+
+
+---
 
 # **DevOps Cloud** 
 
+---
+
+
 Login to NIC devops cloud through https://devops.cloud.gov.in and after successful login, the user will see the below dashboard providing information on the cluster.
 
-<img src ="https://user-images.githubusercontent.com/67622286/125744310-e4a0047d-7978-4418-82fc-f69918e71b45.png" width=850 height=450>     
+<img src ="https://user-images.githubusercontent.com/67622286/125744310-e4a0047d-7978-4418-82fc-f69918e71b45.png" width=850 height=450> 
 
 In the Cluster we can go further into the assigned project for Add Registry in order to deploy the application.
 
@@ -656,13 +672,16 @@ Here, we specify a hostname to use , in which ingress routes requests for a host
      
 <img src ="https://user-images.githubusercontent.com/67622286/125762212-40651f6c-8d16-49b3-9697-9525a3a25712.png" width=850 height=450>
    
+   
 **Result**: Your ingress has successfully added into the project. 
+   
      
 The ingress begins enforcing your ingress rules.
      
 11) If any of your ingress rules handle requests for encrypted ports, add a **certificate** to encrypt/decrypt communications.
      
 **Note**: You must have an SSL certificate that the ingress can use to encrypt/decrypt communications.`
+  
      
 12) Click **Add Certificate**.
 13) Select a Certificate from the drop-down list.
@@ -672,9 +691,11 @@ The ingress begins enforcing your ingress rules.
 **Now we have achieved the deployment of a simple application file from the local system onto the DevOps Platform.**
 
 
-<div style="page-break-after: always"></div>
+---
 
 # **CI/CD**
+
+---
 
 
 Using NIC DevOps Platform, you can integrate with a Git repository to set up a continuous integration (CI) pipeline.
@@ -757,14 +778,15 @@ Now we can see the Kubernetes cluster is on active state-
 
 **Result** - Now Variable have successfully added.
 
-<img src="https://user-images.githubusercontent.com/67622286/125788787-5c819e12-2b74-46c8-b676-b7bebee79dcb.png" width=850 height=450>
+<img src="https://user-images.githubusercontent.com/67622286/125788787-5c819e12-2b74-46c8-b676-b7bebee79dcb.png" width=950 height=450>
      
 
 After this we need to trigger the pipeline-
 
 Runners execute the jobs for build and deploy stages.
      
-### **Build and Deploy Images**
+### Build and Deploy Images
+
 
 The Build and Deploy Image step builds and publishes a Docker image. This process requires a Dockerfile in your source code's repository to complete successfully.
 
@@ -809,7 +831,7 @@ In order to check the running application we need to click on the endpoint into 
 <img src="https://user-images.githubusercontent.com/67622286/125792092-f6754754-bce4-47ea-ae5b-fe08d3d830ee.png" width=850 height=450>
 
      
-Now we are able to deploy the application and follow the CI/CD pipeline in order to deploy.
+**Result** - Now we are able to deploy the application and follow the CI/CD pipeline in order to deploy.
     
      
      
