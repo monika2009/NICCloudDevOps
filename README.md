@@ -134,7 +134,7 @@ Let’s understand how DevOps Platform interacts with the two fundamental techno
 
 <a href="https://monika2009.github.io/NICCloudDevopsArchitecture/#/">Docker Technology</a>
 
-<a href="https://monika2009.github.io/NICCloudDevopsArchitecture/#/">Kubernetes Technology</a>
+<a href="https://monika2009.github.io/NICCloudDevopsArchitecture/#/?id=kubernetes-technology">Kubernetes Technology</a>
 
 
 <!--A simple explanation can be that a container is a form of operating system virtualization that contains all necessary executables, binary code, libraries and configuration files. There are some basic similarities but containers are very different from virtual machines. Compared to virtualization approaches, containers take advantage of a form of operating system (OS) virtualization in which features of the OS. In the case of the Linux kernel, namely the namespaces and cgroups are leveraged to isolate processes and control the amount of CPU, memory, and disk that those processes have access to. 
