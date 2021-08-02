@@ -831,7 +831,7 @@ In order to check the running application we need to click on the endpoint into 
 <img src="https://user-images.githubusercontent.com/67622286/125792092-f6754754-bce4-47ea-ae5b-fe08d3d830ee.png" width=850 height=450>
 
      
-**Result** - Now we are able to deploy the application and follow the CI/CD pipeline in order to deploy.
+**Result** - Now we are able to deploy the application and follow the CI/CD pipeline in order to deploy..
     
      
      
