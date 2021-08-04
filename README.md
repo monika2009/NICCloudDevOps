@@ -782,7 +782,7 @@ After this we need to trigger the pipeline-
 
 Runners execute the jobs for build and deploy stages.
      
-### **Build and Deploy Images**
+### Build and Deploy Images
 
 
 The Build and Deploy Image step builds and publishes a Docker image. This process requires a Dockerfile in your source code's repository to complete successfully.
