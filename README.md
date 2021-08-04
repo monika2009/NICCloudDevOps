@@ -490,9 +490,6 @@ When images are pushed on the project repository we have to assign labels accord
 
 - click the ADD LABELS button & add labels
 
-
-
-
 Refer screenshot below -
 
 
@@ -576,7 +573,7 @@ After that all the dependencies are fulfilled to run the image in the environmen
 
 ---
 
-# **DevOps Cloud** 
+### **DevOps Cloud** 
 
 ---
 
