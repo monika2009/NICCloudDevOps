@@ -690,7 +690,7 @@ The ingress begins enforcing your ingress rules.
 
 ---
 
-### **CI/CD**
+### CI/CD
 
 ---
 
