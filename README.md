@@ -801,12 +801,12 @@ At the stage of the completed the deployment we have to see the following into t
      
 - Configured Deployment
 - Configured Service
-- Configured Ingress  LB
+- Configured Ingress LB
      
 <img src="https://user-images.githubusercontent.com/67622286/125790688-999129c0-efe5-44d5-addc-6819fbf0e8a2.png" width=850 height=450>
   
-     
-Now if we login into the devops cloud portal and then hit the assigned projects we are able to see the deployed one workload, Load Balancing & Services into it.
+  
+Now if we login into the devops cloud portal and then hit the assigned projects we are able to see the deployed one workload,Load Balancing & Services into it.
 
 If we login into the devops cloud portal we have to be able to see the deployed workloads under the assigned project.
      
