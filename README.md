@@ -573,7 +573,7 @@ After that all the dependencies are fulfilled to run the image in the environmen
 
 ---
 
-### **DevOps Cloud** 
+### DevOps Cloud 
 
 ---
 
@@ -690,7 +690,7 @@ The ingress begins enforcing your ingress rules.
 
 ---
 
-**CI/CD**
+### CI/CD
 
 ---
 
